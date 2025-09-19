@@ -63,6 +63,11 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
+# Roblox specific files
+*.rbxlx.lock
+*.rbxl
+*.rbxm
+
 # OS generated files
 .DS_Store
 .DS_Store?
@@ -71,3 +76,13 @@ crashlytics-build.properties
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.log
